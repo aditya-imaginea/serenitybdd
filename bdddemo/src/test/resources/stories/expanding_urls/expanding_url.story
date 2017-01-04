@@ -11,5 +11,5 @@ When I request the expanded form of this url
 Then the long form should be <expectedURL>
 Examples:
 | providedURL | expectedURL |
-| http://goo.gl/fbsS | http://www.google.com |
-| http://goo.gl/xj57 | http://www.amazon.com |
+| http://goo.gl/fbsS | http://www.google.com/ |
+| http://goo.gl/xj57 | http://www.amazon.co/ |
